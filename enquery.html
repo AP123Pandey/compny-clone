@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- <div class="popup">
+        <button id="close">&times;</button>
+        <h2 class="heading2">Enquery form</h2>
+        <div class="inputypes">
+        <input type="text" class="text" placeholder="Name">
+        <input type="text" class="lastname" placeholder="Last Name">
+        <input type="email" name="dds" id="email" placeholder="Email">
+        <input type="number" name="num" id="number" placeholder="Number">
+        <input type="button" value="Submit" id="Submit">
+    </div>
+
+    </div>
+
+    <script>
+             window.addEventListener("load", function(){
+                setTimeout(
+                    function open(event){
+                        document.querySelector(".popup").style.display = "block";
+                    },
+                    2000
+                )
+             });
+  
+
+
+        document.querySelector("#close").addEventListener("click",function(){
+            document.querySelector(".popup").style.display = "none"
+
+        })
+    </script>-->
+
+<!-- <div class="seventhpr">
+<h1>to do List</h1>
+<div class="todolist">
+    <div class="listHolder">
+        <ul class="list">
+            <li>hfvhgfcdvvbjj</li>
+            <li>hfvhgfcdvvbjj</li>
+            <li>hfvhgfcdvvbjj</li>
+            <li>hfvhgfcdvvbjj</li>
+        </ul>
+    </div>
+</div>
+</div>
+
+<div class="col">
+    <button class="btn-primary" id="addBtn">Add Item</button>
+</div>
+<div class="col">
+    <button class="btn-primary" id="toggleBtn">Hide List</button>
+</div>
+
+
+
+
+
+<div class="seventhpr">
+    <h1 id="toggleBt">to do List</h1>
+    <div class="todolist">
+        <div class="listHolde">
+            <ul class="list">
+                <li>hfvhgfcdvvbjj</li>
+                <li>hfvhgfcdvvbjj</li>
+                <li>hfvhgfcdvvbjj</li>
+                <li>hfvhgfcdvvbjj</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    
+    <div class="seventhpr">
+        <h1 id="toggleBt">to do List</h1>
+        <div class="todolist">
+            <div class="listHolde">
+                <ul class="list">
+                    <li>hfvhgfcdvvbjj</li>
+                    <li>hfvhgfcdvvbjj</li>
+                    <li>hfvhgfcdvvbjj</li>
+                    <li>hfvhgfcdvvbjj</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+    <script>
+        const toggleBt = document.querySelector('#toggleBt');
+        const  divLis = document.querySelector('.listHolde');
+
+        toggleBt.addEventListener('click', () => {
+            if(divLis.style.display === 'none') {
+                divLis.style.display = 'block';
+                toggleBtn.innerHTML = 'Hide List';
+            }
+            else{
+                divLis.style.display = 'none';
+                toggleBt.innerHTML  = 'Show List';
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const toggleBtn = document.querySelector('#toggleBtn');
+        const  divList = document.querySelector('.listHolder');
+
+        toggleBtn.addEventListener('click', () => {
+            if(divList.style.display === 'none') {
+                divList.style.display = 'block';
+                toggleBtn.innerHTML = 'Hide List';
+            }
+            else{
+                divList.style.display = 'none';
+                toggleBtn.innerHTML  = 'Show List';
+            }
+        });
+    </script>
+ 
+
+
+-->
+<!-- commmen bez of stiky the appp 
+
+<div class="seventhpr">
+    <h1 class="toggleBt">to do List</h1>
+    <div class="todolist">
+        <div class="listHolde Ass">
+            <ul class="list">
+                <li>Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+                <li>Task 4</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="seventhpr">
+    <h1 class="toggleBt">to do List</h1>
+    <div class="todolist">
+        <div class="listHolde Ass">
+            <ul class="list">
+                <li>Task A</li>
+                <li>Task B</li>
+                <li>Task C</li>
+                <li>Task D</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="seventhpr">
+    <h1 class="toggleBt">to do List</h1>
+    <div class="todolist">
+        <div class="listHolde">
+            <ul class="list">
+                <li>Task A</li>
+                <li>Task B</li>
+                <li>Task C</li>
+                <li>Task D</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="seventhpr">
+    <h1 class="toggleBt">to do List</h1>
+    <div class="todolist">
+        <div class="listHolde">
+            <ul class="list">
+                <li>Task A</li>
+                <li>Task B</li>
+                <li>Task C</li>
+                <li>Task D</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="seventhpr">
+    <h1 class="toggleBt">to do List</h1>
+    <div class="todolist">
+        <div class="listHolde Ass">
+            <ul class="list">
+                <li>Task A</li>
+                <li>Task B</li>
+                <li>Task C</li>
+                <li>Task D</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--<script>
+    const toggleButtons = document.querySelectorAll('.toggleBt');
+
+    toggleButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const listHolder = button.nextElementSibling.querySelector('.listHolde');
+            if (listHolder.style.display === 'block' || listHolder.style.display === '') {
+                listHolder.style.display = 'none';
+                
+            } else {
+                listHolder.style.display = 'block';
+               
+            }
+        });
+    });
+</script>
+
+<script>
+    const toggleButtons = document.querySelectorAll('.toggleBt');
+
+    toggleButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Get all list holders
+            const allListHolders = document.querySelectorAll('.listHolde');
+
+            // Close all list holders
+            allListHolders.forEach(holder => {
+                holder.style.display = 'none';
+            });
+
+            // Open the clicked list holder
+            const listHolder = button.nextElementSibling.querySelector('.listHolde');
+            listHolder.style.display = 'block';
+        });
+    });
+</script>
+
+-->
+
+<div class="sceondcont">
+<i>jdSAJHJH GSAHGHFG GHGFSAHGSh</i><br><br><br><br>
+
+<i>jdSAJHJH GSAHGHFG GHGFSAHGSh</i><br><br><br><br>
+<i>jdSAJHJH GSAHGHFG GHGFSAHGSh</i><br><br><br><br>
+<i>jdSAJHJH GSAHGHFG GHGFSAHGSh</i><br><br><br><br>
+<i>jdSAJHJH GSAHGHFG GHGFSAHGSh</i><br><br><br><br>
+<i>jdSAJHJH GSAHGHFG GHGFSAHGSh</i><br><br><br><br>
+</div>
+<dov class="stikywht">
+    <div class="whatspp">
+        <img src="image.png" alt="" class="imgwht">
+    </div>
+</dov>
+
+
+</body>
+</html>
